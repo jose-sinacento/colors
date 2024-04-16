@@ -44,7 +44,7 @@ input {
   margin-bottom: 20px;
 }
 
-
-
-
-
+.box.active {
+  background-color: pink;
+  color: black;
+}

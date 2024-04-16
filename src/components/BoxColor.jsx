@@ -1,11 +1,13 @@
-import MyForm from "./MyFormChallenge";
 
-function boxColor({ color, value }) {
+function BoxColor({ color, value }) {
+
   return (
     <>
-    <MyForm />
+      <div className={`box ${color}`}>
+        {color === value ? <p>Yes, I'm {value} color</p> : <p>I'm not a {value} color</p>}
+      </div>
     </>
   );
 }
 
-export default boxColor;
+export default BoxColor;

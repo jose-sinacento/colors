@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: black;
 }
 
 /* CSS de regalo */
@@ -45,6 +46,87 @@ input {
 }
 
 .box.active {
+  color: black !important;
+  font-weight: bold;
+}
+
+.box.red {
+  border: 1px solid red;
+  color: red;
+}
+
+.box.red.active {
+  background-color: red;
+}
+
+.box.green {
+  border: 1px solid green;
+  color: green;
+}
+
+.box.green.active {
+  background-color: green;
+}
+
+.box.pink {
+  border: 1px solid pink;
+  color: pink;
+}
+
+.box.pink.active {
   background-color: pink;
-  color: black;
+}
+
+.box.yellow {
+  border: 1px solid yellow;
+  color: yellow;
+}
+
+.box.yellow.active {
+  background-color: yellow;
+}
+
+.box.purple {
+  border: 1px solid purple;
+  color: purple;
+}
+
+.box.purple.active {
+  background-color: purple;
+}
+
+.box.white {
+  border: 1px solid white;
+  color: white;
+}
+
+.box.white.active {
+  background-color: white;
+}
+
+.box.blue {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.box.blue.active {
+  background-color: blue;
+}
+
+.box.aqua {
+  border: 1px solid aqua;
+  color: aqua;
+}
+
+.box.aqua.active {
+  background-color: aqua;
+}
+
+.box.olive {
+  border: 1px solid olive;
+  color: olive;
+}
+
+.box.olive.active {
+  background-color: olive;
 }

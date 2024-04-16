@@ -20,7 +20,6 @@ function MyForm() {
         value={value}
         ref={inputRef}
       />
-      <div>{value}</div>
 
       <div className="container">
         {colors.map((color, index) =>
